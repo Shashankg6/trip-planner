@@ -4,6 +4,6 @@ Python script to help plan trips by reading in a search parameter (i.e. “resta
 
 Please note you will need a Google API key to use. 
 
-Also, please update the local path to save the CSV output of resources.
+Also, please update the local path to save the CSV output of search results.
 
 Happy Planning!
