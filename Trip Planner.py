@@ -117,5 +117,5 @@ print(cumul_data)
 columnNames = ["Resource Name", "Address", "Phone Number", "Website", "Category", "Monday Hours", "Tuesday Hours", "Wednesday Hours", "Thursday Hours", "Friday Hours", "Saturday Hours", "Sunday Hours"]
     
 export_foodbank_dataframe = pd.DataFrame.from_records(cumul_data, columns=columnNames)
-export_foodbank_dataframe.to_csv(r'/Users/Shashank/Documents/Fall-2020-Classes/GB-Work/export_women_shelter_dataframe.csv', index = False, header=True)
+export_foodbank_dataframe.to_csv(r'/enter/path/to/save/trip_planning.csv', index = False, header=True)
 
